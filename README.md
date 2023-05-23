@@ -24,11 +24,15 @@ LEARN AND Practice Excel.
 =MODE(A1:A6)
 \
 =COUNT(A1:A6)
-\ (count is used to count Numeric values)
+\ 
+(count is used to count Numeric values)
 \
 =COUNT(A1:F7)
 \
+
 =COUNTA(A1:A6)
 
-\ (iF ITS Text ,COUNTA is used)
+\ 
+
+(iF ITS Text ,COUNTA is used)
 
