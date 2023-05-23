@@ -29,3 +29,5 @@ LEARN AND Practice Excel.
 \
 =COUNTA(A1:A6)
 
+\ (iF ITS Text ,COUNTA is used)
+
