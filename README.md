@@ -26,6 +26,8 @@ LEARN AND Practice Excel.
 =COUNT(A1:A6)
 \ 
 (count is used to count Numeric values)
+
+COUNT function does not count empty lines
 \
 =COUNT(A1:F7)
 \
