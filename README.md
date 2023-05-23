@@ -24,6 +24,7 @@ LEARN AND Practice Excel.
 =MODE(A1:A6)
 \
 =COUNT(A1:A6)
+\ (count is used to count Numeric values)
 \
 =COUNT(A1:F7)
 \
