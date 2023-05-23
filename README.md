@@ -64,3 +64,6 @@ Use IF function to check who’s eligible for Christmas gifts this year. Return 
 
 \
 
+    =SUMIF(range,criteria,[sum_range])
+
+\
