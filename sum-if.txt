@@ -1,0 +1,7 @@
+The syntax of the SUMIF function is as follows:
+
+    =SUMIF(range,criteria,[sum_range])
+
+    range – This is the range in which our criteria will be checked.
+    criteria – This is the criteria we’ll check
+    [sum_range] – This is the range we’d like to sum (only for the cells that matched our criteria).
