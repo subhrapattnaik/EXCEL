@@ -1,0 +1,16 @@
+Syntax
+
+    =COUNTIF(range,criteria)
+
+The COUNTIF function uses two arguments:
+
+    range – what is the range of cells in which we’d like to count cells which meet a certain criteria?
+    criteria – what is the criteria we’d like to check?
+
+Let’s say we want to see how many times the word “cat” appears in the range A1:A10:
+
+    =COUNTIF(A1:A10,”cat”)
+
+We can also use various operators to perform our checks, for example, if we want to count the number of cells in range A1:A10 which contain a number higher than 18, we can type the following:
+
+    =COUNTIF(A1:A10,”>18″)
