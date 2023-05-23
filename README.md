@@ -55,3 +55,12 @@ COUNT function does not count empty lines
 
 (iF ITS Text ,COUNTA is used)
 
+\
+Grandpa John gives his kids Christmas gifts, but only if they are younger than 18.
+
+Use IF function to check who’s eligible for Christmas gifts this year. Return “Yes” if he’s eligible, and “No” if he is not.
+\
+=IF(B3<18,"YES","No")
+
+\
+
