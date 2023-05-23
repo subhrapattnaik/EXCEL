@@ -55,17 +55,27 @@ COUNT function does not count empty lines
 
 (iF ITS Text ,COUNTA is used)
 
-\
+-------------------------------------------------------------------------
 Grandpa John gives his kids Christmas gifts, but only if they are younger than 18.
 
 Use IF function to check who’s eligible for Christmas gifts this year. Return “Yes” if he’s eligible, and “No” if he is not.
 \
 =IF(B3<18,"YES","No")
-
+---------------------------------------------------------------
 \
+Syntax
+
+The syntax of the SUMIF function is as follows:
 
     =SUMIF(range,criteria,[sum_range])
 
+    range – This is the range in which our criteria will be checked.
+    criteria – This is the criteria we’ll check
+    [sum_range] – This is the range we’d like to sum (only for the cells that matched our criteria).
+
+Let’s say we want to sum the range B2:B10 in every instance where range A2:A10 contains the word “apple”:
+
+    =SUMIF(range,criteria,[sum_range])
 \
 --------------------------------------------
 Instructions: create a nested if formula where:							
