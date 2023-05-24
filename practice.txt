@@ -1,0 +1,15 @@
+Syntax
+
+The syntax of the IF function is as follows:
+
+    =IF(logical test,[value if true],[value if false])
+
+    logical test: This is the condition we would like to check. We can check conditions using various operations, such as equals (“=”), greater than (“>”), smaller than (“<“) or even different (“<>”). So, let’s say we want to check if Cell A2 is greater than cell A1, we will write it this way: A2>A1
+    value if true – What the function will return if our condition is met.
+    value if false – What the function will return if our condition is not met. If we leave this one empty, we’ll get “FALSE”.
+
+Let’s say we want to check if A2 is greater than A1, and return “A2 is greater” if it’s true, and return “A2 is not greater” if it’s not true. This is what we’ll type:
+
+    =IF(A2>A1,”A2 is greater”,”A2 is not greater”)
+    \
+    -----------------------------------------------------------------------
