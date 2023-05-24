@@ -1,0 +1,19 @@
+SUMIFS function allows us to sum values that meet more than one criteria. 
+
+Contrary to SUMIF (without S in the end) – The sum range and criteria range must be separated.
+
+
+Syntax
+
+    SUMIFS(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2], [criteria_range3, criteria3], …)
+
+    sum_range – The range we’d like to sum (only for the cells that matched the multiple criteria). 
+    criteria_range 1 – The first range in which criteria1 is checked. 
+    criteria1 – The first criteria that is checked 
+    criteria_range 2 – The second range in which criteria2 is checked. 
+    criteria2 – The second criteria that is checked.
+    and so on…
+
+Please note that criteria_range2 onwards are optional criteria.
+
+
