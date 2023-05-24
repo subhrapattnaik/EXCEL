@@ -8,3 +8,10 @@ The syntax of the AVERAGEIF function is as follows:
     criteria – This is the criteria we’ll check
     [average_range] – This is the range for which we’d like to calculate the average (only for the cells that matched our criteria).
 
+    < Less than
+
+    <= Less than or equal to
+
+    >= Great than or equal to
+
+    <> Not equal to
