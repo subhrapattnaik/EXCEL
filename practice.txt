@@ -26,4 +26,9 @@ Hereinafter an example of an IF statement under “value if the TRUE” argument
 
     =IF(logical test,IF(logical test, Value if TRUE, Value if FALSE), value if FALSE)
     
+    
+  Example:
+  
+    
+    =IF(B9 = "Fulltime",IF(B10 > 4.5,"Yes Discount","No Discount"),"No Discount")
     -----------------------------------------------------------------
