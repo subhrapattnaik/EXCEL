@@ -13,3 +13,17 @@ Let’s say we want to check if A2 is greater than A1, and return “A2 is great
     =IF(A2>A1,”A2 is greater”,”A2 is not greater”)
     \
     -----------------------------------------------------------------------
+    \
+   Nested -if
+   
+   Syntax
+
+Hereinafter an example of an IF statement under the “value if FALSE” argument:
+
+    =IF(logical test,value if TRUE,IF(logical test, Value if TRUE, Value if FALSE)
+
+Hereinafter an example of an IF statement under “value if the TRUE” argument:
+
+    =IF(logical test,IF(logical test, Value if TRUE, Value if FALSE), value if FALSE)
+    
+    -----------------------------------------------------------------
