@@ -1,0 +1,10 @@
+Syntax
+
+The syntax of the AVERAGEIF function is as follows:
+
+    =AVERAGEIF(range,criteria,[average_range])
+
+    range – This is the range in which our criteria will be checked.
+    criteria – This is the criteria we’ll check
+    [average_range] – This is the range for which we’d like to calculate the average (only for the cells that matched our criteria).
+
